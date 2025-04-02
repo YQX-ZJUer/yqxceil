@@ -1,0 +1,61 @@
+{
+  "os": "Linux-5.15.0-112-generic-x86_64-with-debian-bookworm-sid",
+  "python": "3.7.16",
+  "startedAt": "2025-04-01T05:50:53.263147Z",
+  "args": [
+    "hydra.run.dir=output/dpp-epr-random/cmsqa/EleutherAI/gpt-neo-2.7B/base-mg0.02-s0.1-fix/trainer",
+    "task_name=cmsqa",
+    "pair_wise=true",
+    "dataset_reader.dataset_path=output/dpp-epr-random/cmsqa/EleutherAI/gpt-neo-2.7B/scored.json",
+    "index_reader.dataset_path=index_data/cmsqa/index_dataset.json",
+    "training_args.output_dir=output/dpp-epr-random/cmsqa/EleutherAI/gpt-neo-2.7B/base-mg0.02-s0.1-fix",
+    "training_args.run_name=base-mg0.02-s0.1-fix",
+    "pretrained_model_path=output/epr/cmsqa/EleutherAI/gpt-neo-2.7B/bert-fix_ctx-shared-bs64",
+    "training_args.num_train_epochs=30",
+    "training_args.per_device_train_batch_size=64",
+    "training_args.per_device_eval_batch_size=64",
+    "training_args.gradient_accumulation_steps=1",
+    "model_config.dpp_training=true",
+    "model_config.norm_embed=true",
+    "model_config.margin=0.02",
+    "model_config.scale_factor=0.1"
+  ],
+  "program": "retriever_trainer.py",
+  "codePath": "retriever_trainer.py",
+  "git": {
+    "remote": "https://github.com/HKUNLP/icl-ceil.git",
+    "commit": "e23c539810f4275e1c65f7a3c91b3594aa31c575"
+  },
+  "email": "yaoqixu@zju.edu.cn",
+  "root": "/root/autodl-tmp/yaoqixu/icl-ceil",
+  "host": "autodl-container-7b33469e91-20bc199d",
+  "username": "root",
+  "executable": "/root/miniconda3/envs/yqxceil/bin/python",
+  "codePathLocal": "retriever_trainer.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA A800 80GB PCIe",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "22951700881408",
+      "used": "15354270666752"
+    }
+  },
+  "memory": {
+    "total": "945517805568"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

@@ -21,7 +21,7 @@ n_tokens=1600
 scr_batch_size=8
 inf_batch_size=8
 
-for task_name in mrpc
+for task_name in cmsqa geoquery mnli break sst5
 do
   export WANDB_TAGS="${method},${task_name},${model_name}"
   run_dir=output/${method}/${task_name}/${model_name}

@@ -18,7 +18,7 @@ gpu=2
 #ds_size=1000
 #gpu=1
 
-for task_name in mrpc
+for task_name in smcalflow_cs
 do
   run_dir=output/${method}/${task_name}/${model_name}
   index_data=index_data/${task_name}/index_dataset.json

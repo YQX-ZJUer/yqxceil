@@ -1,0 +1,52 @@
+{
+  "os": "Linux-5.15.0-112-generic-x86_64-with-debian-bookworm-sid",
+  "python": "3.7.16",
+  "startedAt": "2025-03-28T04:32:17.511072Z",
+  "args": [
+    "hydra.run.dir=output/epr/mnli/EleutherAI/gpt-neo-2.7B/bert-fix_ctx-shared-bs64/trainer",
+    "task_name=mnli",
+    "dataset_reader.dataset_path=output/epr/mnli/EleutherAI/gpt-neo-2.7B/scored.json",
+    "index_reader.dataset_path=index_data/mnli/index_dataset.json",
+    "training_args.output_dir=output/epr/mnli/EleutherAI/gpt-neo-2.7B/bert-fix_ctx-shared-bs64",
+    "training_args.run_name=bert-fix_ctx-shared-bs64",
+    "model_config.ctx_model_name=null"
+  ],
+  "program": "retriever_trainer.py",
+  "codePath": "retriever_trainer.py",
+  "git": {
+    "remote": "https://github.com/HKUNLP/icl-ceil.git",
+    "commit": "e23c539810f4275e1c65f7a3c91b3594aa31c575"
+  },
+  "email": "yaoqixu@zju.edu.cn",
+  "root": "/root/autodl-tmp/yaoqixu/icl-ceil",
+  "host": "autodl-container-7b33469e91-20bc199d",
+  "username": "root",
+  "executable": "/root/miniconda3/envs/yqxceil/bin/python",
+  "codePathLocal": "retriever_trainer.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA A800 80GB PCIe",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "22951700881408",
+      "used": "13554283827200"
+    }
+  },
+  "memory": {
+    "total": "945517805568"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

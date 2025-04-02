@@ -1,0 +1,16 @@
+{"time":"2025-03-28T13:52:39.627982699+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-28T13:52:39.62799643+08:00","level":"INFO","msg":"created symlink","path":"/root/autodl-tmp/yaoqixu/icl-ceil/wandb/run-20250328_135239-jvaav5az/logs/debug-core.log"}
+{"time":"2025-03-28T13:52:39.736595127+08:00","level":"INFO","msg":"created new stream","id":"jvaav5az"}
+{"time":"2025-03-28T13:52:39.736638614+08:00","level":"INFO","msg":"stream: started","id":"jvaav5az"}
+{"time":"2025-03-28T13:52:39.736666267+08:00","level":"INFO","msg":"sender: started","stream_id":"jvaav5az"}
+{"time":"2025-03-28T13:52:39.736660732+08:00","level":"INFO","msg":"handler: started","stream_id":"jvaav5az"}
+{"time":"2025-03-28T13:52:39.73666088+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"jvaav5az"}
+{"time":"2025-03-28T13:52:41.095545951+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T13:56:50.172571632+08:00","level":"INFO","msg":"stream: closing","id":"jvaav5az"}
+{"time":"2025-03-28T13:56:50.172601248+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T13:56:50.173160111+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T13:56:52.370899067+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T13:56:53.079440247+08:00","level":"INFO","msg":"handler: closed","stream_id":"jvaav5az"}
+{"time":"2025-03-28T13:56:53.079462266+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jvaav5az"}
+{"time":"2025-03-28T13:56:53.079470686+08:00","level":"INFO","msg":"sender: closed","stream_id":"jvaav5az"}
+{"time":"2025-03-28T13:56:53.079509082+08:00","level":"INFO","msg":"stream: closed","id":"jvaav5az"}

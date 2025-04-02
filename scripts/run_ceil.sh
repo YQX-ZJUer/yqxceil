@@ -6,7 +6,7 @@ export WANDB_START_METHOD=thread
 export TOKENIZERS_PARALLELISM=false
 export HYDRA_FULL_ERROR=1
 
-gpu=2
+gpu=2 #我没有两张hh
 method=dpp-epr-random
 num_ice=50
 port=9927
@@ -21,7 +21,7 @@ n_tokens=1600
 scr_batch_size=8
 inf_batch_size=8
 
-task_name=mrpc
+task_name=cmsqa
 #for scale_factor in 0.01 0.05 0.1
 for scale_factor in 0.1
 do
@@ -45,7 +45,7 @@ do
       model_config.norm_embed=true \
       faiss_index=${run_dir}/index \
       dpp_search=true \
-      dpp_topk=100 \
+      dpp_topk=100 \ 
       num_ice=16 \
       num_candidates=50 \
       model_config.scale_factor=${scale_factor} \

@@ -183,7 +183,7 @@ def dpp(entry, num_candidates=1, num_ice=1, mode="map", dpp_topk=100, scale_fact
     return entry
 
 
-@hydra.main(config_path="configs", config_name="dense_retriever")
+@hydra.main(config_path="configs", config_name="dense_retriever", version_base="1.2")
 def main(cfg):
     logger.info(cfg)
     set_seed(43)

@@ -91,7 +91,7 @@ def find(cfg):
     return data_list
 
 
-@hydra.main(config_path="configs", config_name="bm25_retriever")
+@hydra.main(config_path="configs", config_name="bm25_retriever", version_base='1.1')
 def main(cfg):
     logger.info(cfg)
     set_seed(43)

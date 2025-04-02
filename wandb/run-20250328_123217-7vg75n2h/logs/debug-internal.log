@@ -1,0 +1,16 @@
+{"time":"2025-03-28T12:32:17.512130337+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-28T12:32:17.512143166+08:00","level":"INFO","msg":"created symlink","path":"/root/autodl-tmp/yaoqixu/icl-ceil/wandb/run-20250328_123217-7vg75n2h/logs/debug-core.log"}
+{"time":"2025-03-28T12:32:17.621329241+08:00","level":"INFO","msg":"created new stream","id":"7vg75n2h"}
+{"time":"2025-03-28T12:32:17.621404002+08:00","level":"INFO","msg":"stream: started","id":"7vg75n2h"}
+{"time":"2025-03-28T12:32:17.621421488+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7vg75n2h"}
+{"time":"2025-03-28T12:32:17.621427294+08:00","level":"INFO","msg":"sender: started","stream_id":"7vg75n2h"}
+{"time":"2025-03-28T12:32:17.621446742+08:00","level":"INFO","msg":"handler: started","stream_id":"7vg75n2h"}
+{"time":"2025-03-28T12:32:18.640166678+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T12:53:16.929452886+08:00","level":"INFO","msg":"stream: closing","id":"7vg75n2h"}
+{"time":"2025-03-28T12:53:16.929479395+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T12:53:16.930066306+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T12:53:18.403688966+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T12:53:19.088887471+08:00","level":"INFO","msg":"handler: closed","stream_id":"7vg75n2h"}
+{"time":"2025-03-28T12:53:19.088922063+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7vg75n2h"}
+{"time":"2025-03-28T12:53:19.088954084+08:00","level":"INFO","msg":"sender: closed","stream_id":"7vg75n2h"}
+{"time":"2025-03-28T12:53:19.08897967+08:00","level":"INFO","msg":"stream: closed","id":"7vg75n2h"}
